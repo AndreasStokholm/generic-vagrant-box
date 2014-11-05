@@ -4,7 +4,7 @@
 set -e # Exit on first error
 
 echo "Updating packages"
-sudo apt-get update -y
+sudo apt-get update -y > /dev/null
 
 echo "Installing Nginx"
 sudo apt-get install nginx -y > /dev/null
