@@ -3,6 +3,7 @@
 # Some sensible stuff
 set -e # Exit on first error
 
+echo "Added comment"
 echo "Updating packages"
 sudo apt-get update -y
 
