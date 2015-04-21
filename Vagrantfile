@@ -3,8 +3,7 @@ project_name	= 'Project Name'
 vbox_memory		= '256' # Megabytes
 
 Vagrant.configure("2") do |config|
-	config.vm.box = 'trusty64'
-	config.vm.box_url = 'http://files.vagrantup.com/trusty64.box'
+	config.vm.box = 'ubuntu/trusty64'
 
 	config.vm.network "forwarded_port", guest: 80, host: host_port
 
